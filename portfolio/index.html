@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Portfolio Website</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/d31d023f65.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id ="header">
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi, I'm <span>Jeremiah</span> R <br> from California</h1>
+            </div>
+        </div>
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col1">
+                        <img src="/images/user.png">
+                    </div>
+                    <div class="about-col2">
+                        <h1 class="subtitle">About Me</h1>
+                        <p>Hi, I'm Jeremiah, a dedicated web developer with 3 years of experience specializing in front-end development. I excel in HTML, CSS, JavaScript, and React, creating dynamic, user-friendly websites with clean and efficient code. My work spans from small business websites to large-scale web applications, always focusing on delivering visually appealing and highly functional user experiences. I enjoy solving complex problems and thrive in collaborative environments, continuously expanding my skill set to include the latest technologies and frameworks.
+                            <br>Beyond coding, I love exploring new tech trends, contributing to open-source projects, and sharing my knowledge through blog posts and tech meetups. I'm passionate about making the web accessible to all users and enjoy engaging with the developer community. If you're interested in working together or discussing web development, feel free to get in touch!</p>
+                            <div class="tabtitles">
+                                <p class="tablinks activelink" onclick="opentab('skills')">Skills</p>
+                                <p class="tablinks" onclick="opentab('experience')">Experience</p>
+                                <p class="tablinks" onclick="opentab('education')">Education</p>
+                            </div>
+                    <div class="tab-contents activetab" id="skills">
+                        <ul>
+                            <li><span>Web Developer</span><br>Developing user friendly websites</li>
+                            <li><span>UI/UX Designer</span><br>Designing interactive interfaces</li>
+                            <li><span>Data Analyst</span><br>Analyzing datasets and drawing conclusions</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023-Current</span><br>Software Developer at Microsoft</li>
+                            <li><span>2021-2023</span><br>App Developer at EY</li>
+                            <li><span>2017-2021</span><br>Software Developer at Hireme</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2013-2017</span><br>CSE at MS Ramaiah Institute of Technology</li>
+                            <li><span>2011-2013</span><br>Class 11-12 at Guru Siddhartha International School</li>
+                            <li><span>2009-2011</span><br>High School at St. Paul's Sr. Sec. School</li>
+                        </ul>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="services">
+            <div class="container">
+                <h1 class="subtitle">My Services</h1>
+                <div class="serviceslist">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Web Developer</h2>
+                        <p>Creating responsive, user-friendly websites tailored to your unique needs, with a focus on seamless functionality and modern design aesthetics. Let's bring your digital vision to life!</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-crop"></i>
+                        <h2>UI/UX Designer</h2>
+                        <p>Crafting intuitive and engaging user experiences with a focus on seamless interaction and aesthetic appeal. Specializing in responsive design, usability testing, and user-centered solutions.</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-app-store"></i>
+                        <h2>Data Analyst</h2>
+                        <p>Offering expert data analysis services, I transform complex data into actionable insights, driving strategic decision-making and business growth. Specializing in data visualization, statistical analysis, and predictive modeling to optimize performance and uncover opportunities.</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="subtitle">My Work</h1>
+                <div class="worklist">
+                    <div class="work">
+                        <img src="/images/work-1.png">
+                        <div class="layer">
+                            <h3>Social Media App</h3>
+                            <p>Developed and managed a dynamic social media app, enhancing user engagement through innovative features and seamless user experience. Spearheaded community growth and content strategies, resulting in a significant increase in active user base.</p>
+                            <a href="#"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="/images/work-2.png">
+                        <div class="layer">
+                            <h3>Music App</h3>
+                            <p>Explore my innovative music app, designed to revolutionize your listening experience with personalized playlists and seamless streaming. Discover features that enhance music discovery and enjoyment.</p>
+                            <a href="#"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="/images/work-3.png">
+                        <div class="layer">
+                            <h3>Online Shopping App</h3>
+                            <p>Developed a user-friendly online shopping app, enhancing customer experience with seamless navigation and secure transactions. Implemented innovative features to streamline the shopping process and boost engagement.</p>
+                            <a href="#"><i class="fa-solid fa-link"></i></a>
+                        </div>
+            </div>
+        </div>
+        <div id="contact">
+            <div class="container">
+                <h1 class="subtitle">Contact Me</h1>
+                <div class="row">
+                    <div class="contact-left">
+                        <p><i class="fa-solid fa-paper-plane"></i>jeremiah@gmail.com</p>
+                        <p><i class="fa-solid fa-phone"></i>9276416809</p>
+                        <div class="social-icons">
+                            <a href="https://facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                            <a href=""><i class="fa-brands fa-instagram"></i></i></a>
+                            <a href=""><i class="fa-brands fa-linkedin"></i></i></a>
+                            <a href=""><i class="fa-brands fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script>
+            var tablinks=document.getElementsByClassName("tablinks");
+            var tabcontents=document.getElementsByClassName("tab-contents");
+            function opentab(tabname)
+            {
+                for(tablink of tablinks)
+                {
+                    tablink.classList.remove("activelink");
+                }
+                for(tabcontent of tabcontents)
+                {
+                    tabcontent.classList.remove("activetab");
+                }
+                event.currentTarget.classList.add("activelink");
+                document.getElementById(tabname).classList.add("activetab");
+            }
+        </script>
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbwPnQ6PEyuSONfkRv0gEEY9NouaECmg1vLnbk16-n7mh3gYEnDq3F8EBtxURmBt_vCI/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg = document.getElementById("msg")
+
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => {
+                    msg.innerHTML = "Message Sent successfully."
+                    setTimeout(function()
+                    {
+                        msg.innerHTML = ""
+                    },5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+            })
+          </script>
+    </body>
+</html>
